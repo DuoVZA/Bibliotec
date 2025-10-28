@@ -50,11 +50,6 @@ void Bibliotec::Add()
 
 Bibliotec::~Bibliotec()
 {
-	delete book;
-	delete author;
-	delete genre;
-
-	delete name;
 	id = 0;
 }
 
