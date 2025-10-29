@@ -18,6 +18,7 @@ class Bibliotec
 public:
 
 	Bibliotec();
+
 	void Print(Bibliotec obj);
 	void Add();
 

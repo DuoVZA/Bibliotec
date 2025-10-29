@@ -2,7 +2,12 @@
 
 Bibliotec::Bibliotec()
 {
-
+	book = "";
+	author = "";
+	genre = "";
+	isTaken = false;
+	name = "";
+	id = 0;
 }
 
 void Bibliotec::Print(Bibliotec obj)

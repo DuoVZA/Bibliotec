@@ -7,3 +7,4 @@ ostream& operator << (ostream& os, Bibliotec& obj)
 {
 	os << obj << endl;
 }
+
