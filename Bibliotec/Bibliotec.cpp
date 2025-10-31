@@ -10,7 +10,11 @@ Bibliotec::Bibliotec()
 	id = 0;
 }
 
-void Bibliotec::Print(Bibliotec obj)
+Bibliotec::Bibliotec(str bk, str aut, str gn, bool it, str nm, l id_): book(bk), author(aut), genre(gn), isTaken(it), name(nm), id(id_)
+{
+}
+
+void Bibliotec::Print()
 {
 	cout << "------------------------------------------------\n"
 		<< "Book: " << book
@@ -58,7 +62,7 @@ Bibliotec::~Bibliotec()
 	id = 0;
 }
 
-Bibliotec& Bibliotec::operator=(Bibliotec& obj)
-{
-
-}
+//Bibliotec& Bibliotec::operator=(Bibliotec& obj)
+//{
+//
+//}

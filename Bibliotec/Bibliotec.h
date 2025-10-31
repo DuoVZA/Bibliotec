@@ -18,12 +18,13 @@ class Bibliotec
 public:
 
 	Bibliotec();
+	Bibliotec(str bk, str aut, str gn, bool it, str nm, l id_);
 
-	void Print(Bibliotec obj);
+	void Print();
 	void Add();
 
 	~Bibliotec();
 
-	Bibliotec& operator = (Bibliotec& obj);	
+	/*Bibliotec& operator = (Bibliotec& obj);	*/
 };
 
